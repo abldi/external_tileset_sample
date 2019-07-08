@@ -19,7 +19,7 @@
     
     "root":{                              // A tile in a 3D Tiles tileset.
     
-        "boundingVolume":{                // A bounding volume defines the spatial extent enclosing a tile or a tile's                                                   // content. The bounding volume types include an oriented bounding box, a bounding                                             // sphere, and a geographic region defined by minimum and maximum latitudes,                                                   // longitudes, and heights.
+        "boundingVolume":{                // A bounding volume defines the spatial extent enclosing a tile or a tile's content. The bounding volume types include an oriented bounding box, a bounding sphere, and a geographic region defined by minimum and maximum latitudes, longitudes, and heights.
 
             "region": [                   // array of six numbers that define the bounding geographic region with latitude,   
                 2.1197050411731104,       // longitude, and height coordinates with the order
@@ -32,10 +32,7 @@
         },
         
         "geometricError":75.9730159305084, // Model's Level of Details is determined by the distance of geometricError.
-        "refine":"ADD",                    // Refinement determines the process by which a lower resolution parent tile                                                  // renders when its higher resolution children are selected to be rendered. 
-                                           // Permitted refinement types are replacement ("REPLACE") and additive ("ADD").
-                                           // "ADD" the children are rendered in addition to the parent tile
-                                           // "REPLACE" the children tiles are rendered in place of the parent, that is, the                                              //  parent tile is no longer rendered.
+        "refine":"ADD",                    // Refinement determines the process by which a lower resolution parent tile renders when its higher resolution children are selected to be rendered. Permitted refinement types are replacement ("REPLACE") and additive ("ADD"). "ADD" the children are rendered in addition to the parent tile. "REPLACE" the children tiles are rendered in place of the parent, that is, the    parent tile is no longer rendered.
         
         "children": [
        
@@ -54,7 +51,7 @@
               },
               "geometricError": 0,
               "content": {
-                "uri": "0.json"             //3D Tiles uses URIs to reference tile content. When the URI is relative, its base                                             //is always relative to the referring tileset JSON file
+                "uri": "0.json"             //3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
               }
             },
             
