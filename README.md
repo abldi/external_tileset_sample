@@ -13,7 +13,7 @@
     },
 ```
     
-    A dictionary object of metadata about per-feature properties. Not required.
+A dictionary object of metadata about per-feature properties. Not required.
     
 ```
     "properties":{                        
