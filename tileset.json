@@ -1,0 +1,58 @@
+{
+    "asset":{
+        "generatetool":"cesiumlab@www.cesiumlab.com",
+        "gltfUpAxis":"Z",
+        "version":"1.0"
+    },
+    "properties":{
+    },
+    "geometricError": 200,
+    "root":{
+        "boundingVolume":{
+            "region": [
+                2.1197050411731104,
+                0.5442527266222308,
+                2.1207950411731104,
+                0.5454927266222308,
+                0,
+                1000
+              ]
+        },
+        "geometricError":75.9730159305084,
+        "refine":"ADD",
+        "children": [
+            {
+              "boundingVolume": {
+                "region": [
+                    2.1197050411731104,
+                    0.5442527266222308,
+                    2.1207950411731104,
+                    0.5454927266222308,
+                    0,
+                    1000
+                ]
+              },
+              "geometricError": 0,
+              "content": {
+                "uri": "0.json"
+              }
+            },
+            {
+              "boundingVolume": {
+                "region": [
+                    2.1197050411731104,
+                    0.5442527266222308,
+                    2.1207950411731104,
+                    0.5454927266222308,
+                    0,
+                    1000
+                ]
+              },
+              "geometricError": 0,
+              "content": {
+                "uri": "1.json"
+              }
+            }
+        ]
+    }
+}
