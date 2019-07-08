@@ -109,4 +109,4 @@ External tileset #1 defined here:
 ```
 
 
-**Full entry tileset.json with two external tileset as children **
+### Full entry tileset.json with two external tileset as children 
