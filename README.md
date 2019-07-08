@@ -60,6 +60,7 @@ Model's Level of Details is determined by the distance of geometricError.
 Refinement determines the process by which a lower resolution parent tile renders when its higher resolution children are selected to be rendered. Permitted refinement types are replacement ("REPLACE") and additive ("ADD"). 
     
 "ADD" the children are rendered in addition to the parent tile. 
+
 "REPLACE" the children tiles are rendered in place of the parent, that is, the parent tile is no longer rendered.
         
 ```
