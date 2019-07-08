@@ -1,5 +1,6 @@
 # External tileset sample
 [Entry tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#entry-tilesetjson-example-with-two-external-tilesets-as-children)
+[External tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#external-tileset-example-with-hlod-models)
 
 
 ### Entry tileset.json example with two external tilesets as children 
@@ -472,7 +473,7 @@ A bounding volume defines the spatial extent enclosing a tile or a tile's conten
         "refine":"ADD",                   
 ```
 
-### Two external tilesets are defined here:
+### External tilesets rules:
 
 **BoundingVolume** of the external tileset.
 
@@ -496,30 +497,15 @@ A bounding volume defines the spatial extent enclosing a tile or a tile's conten
               "content": {
                 "uri": "0.json"            
               }
-            },
+            },  
             
             {
-              "boundingVolume": {
-                "region": [
-                    2.1197050411731104,
-                    0.5442527266222308,
-                    2.1207950411731104,
-                    0.5454927266222308,
-                    0,
-                    1000
-                ]
-              },
-              "geometricError": 0,
-              "content": {
-                "uri": "1.json"
-              }
-            }           
+                other external tilesets
+            }
         ]
-    }
-}
 ```
 
-### External tileset sample 
+### External tileset breakdown 
 
 Includes required asset 
 
@@ -532,7 +518,7 @@ Includes required asset
     },
 ```
 
-boundingVolume of the external tileset.
+**boundingVolume** of the external tileset.
 
 ```
     "root":{
@@ -549,7 +535,7 @@ boundingVolume of the external tileset.
         "children":[    
 ```
 
-Model's hierarchy of LOD
+**Model's hierarchy of LOD**
 
 ```
             {
