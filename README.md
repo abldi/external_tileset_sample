@@ -3,6 +3,11 @@
 
 [External tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#external-tileset-example-with-hlod-models)
 
+[Entry tileset breakdown](https://github.com/abldi/external_tileset_sample/blob/master/README.md#entry-tileset-breakdown)
+
+[External tileset rules](https://github.com/abldi/external_tileset_sample/blob/master/README.md#external-tilesets-rules)
+
+[External tileset breakdown](https://github.com/abldi/external_tileset_sample/blob/master/README.md#external-tileset-breakdown)
 
 ### Entry tileset.json example with two external tilesets as children 
 
