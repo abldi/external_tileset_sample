@@ -90,9 +90,6 @@ External tileset #1 defined here:
 3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
     
 ```
-            
-         // START external tileset #2:
-                   
             {
               "boundingVolume": {
                 "region": [
@@ -108,10 +105,7 @@ External tileset #1 defined here:
               "content": {
                 "uri": "1.json"
               }
-            }
-            
-        // END external tileset # 2
-            
+            }           
         ]
     }
 }
