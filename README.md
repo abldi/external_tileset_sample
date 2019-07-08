@@ -5,12 +5,10 @@
 **Asset** contains Metadata about the entire tileset. Required.
 
 ```
-{
     "asset":{
         "generatetool":"cesiumlab@www.cesiumlab.com",
         "gltfUpAxis":"Z",
         "version":"1.0"
-    },
 ```
     
 A dictionary object of metadata about per-feature properties. Not required.
@@ -34,21 +32,20 @@ A tile in a 3D Tiles tileset.
 A bounding volume defines the spatial extent enclosing a tile or a tile's content. The bounding volume types include an oriented bounding box, a bounding sphere, and a geographic region defined by minimum and maximum latitudes, longitudes, and heights.
     
 ```
-        "boundingVolume":{ 
+    "boundingVolume":{ 
 ```
 
 Array of six numbers that define the bounding geographic region with latitude, longitude, and height coordinates with the order.
 
 ```
-            "region": [                      
-                2.1197050411731104,        
-                0.5442527266222308,
-                2.1207950411731104,
-                0.5454927266222308,
-                0,
-                1000
-              ]
-        },
+    "region": [                      
+        2.1197050411731104,        
+        0.5442527266222308,
+        2.1207950411731104,
+        0.5454927266222308,
+        0,
+        1000
+      ]
 ```
 
 
