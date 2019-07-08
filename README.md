@@ -1,4 +1,6 @@
 # External tileset sample
+[Entry tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#entry-tilesetjson-example-with-two-external-tilesets-as-children)
+
 
 ### Entry tileset.json example with two external tilesets as children 
 
@@ -63,6 +65,8 @@
 }
 ```
 
+
+### External tileset example with HLOD models
 ```
     {
     "asset":{
@@ -468,10 +472,12 @@ A bounding volume defines the spatial extent enclosing a tile or a tile's conten
         "refine":"ADD",                   
 ```
 
-#### Two external tilesets are defined here:
+### Two external tilesets are defined here:
 
 **BoundingVolume** of the external tileset.
-**GeometricError**
+
+**GeometricError** 
+
 **Content:** 3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
 ```
         "children": [
@@ -588,6 +594,7 @@ Model's hierarchy of LOD
         "refine":"REPLACE",
         
 ```
+
 **The transform** property is a 4x4 affine transformation matrix, stored in column-major order, that transforms from the tile's local coordinate system to the parent tile's coordinate system—or the tileset's coordinate system in the case of the root tile.
 
 ```
