@@ -112,8 +112,6 @@ External tileset #1 defined here:
 ### Full entry tileset.json with two external tileset as children 
 
 ```
-
-
 {
     "asset":{
         "generatetool":"cesiumlab@www.cesiumlab.com",
