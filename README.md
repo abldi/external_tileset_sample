@@ -1,5 +1,6 @@
 # External tileset sample
 [Entry tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#entry-tilesetjson-example-with-two-external-tilesets-as-children)
+
 [External tileset example](https://github.com/abldi/external_tileset_sample/blob/master/README.md#external-tileset-example-with-hlod-models)
 
 
@@ -410,6 +411,7 @@
 ```
 
 
+### Entry tileset breakdown
 
 **Asset** contains Metadata about the entire tileset. Required.
 
