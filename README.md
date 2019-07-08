@@ -2,7 +2,7 @@
 
 ### Main entry **tileset.json**
 
-    **Asset** contains Metadata about the entire tileset. Required.
+**Asset** contains Metadata about the entire tileset. Required.
 
 ```
 {
@@ -20,23 +20,24 @@
     },  
 ```
 
-    The geometricError, in meters, introduced if this tileset is not rendered. 
+The geometricError, in meters, introduced if this tileset is not rendered. 
 
 ```
     "geometricError": 200,                
 ```
-    A tile in a 3D Tiles tileset.
+
+A tile in a 3D Tiles tileset.
 ```
     "root":{                              
 ```  
 
-    A bounding volume defines the spatial extent enclosing a tile or a tile's content. The bounding volume types include an oriented bounding box, a bounding sphere, and a geographic region defined by minimum and maximum latitudes, longitudes, and heights.
+A bounding volume defines the spatial extent enclosing a tile or a tile's content. The bounding volume types include an oriented bounding box, a bounding sphere, and a geographic region defined by minimum and maximum latitudes, longitudes, and heights.
     
 ```
         "boundingVolume":{ 
 ```
 
-    Array of six numbers that define the bounding geographic region with latitude, longitude, and height coordinates with the order.
+Array of six numbers that define the bounding geographic region with latitude, longitude, and height coordinates with the order.
 
 ```
             "region": [                      
@@ -51,15 +52,15 @@
 ```
 
 
-    Model's Level of Details is determined by the distance of geometricError.
+Model's Level of Details is determined by the distance of geometricError.
 ```      
         "geometricError":75.9730159305084, 
 ```      
     
-    Refinement determines the process by which a lower resolution parent tile renders when its higher resolution children are selected to be rendered. Permitted refinement types are replacement ("REPLACE") and additive ("ADD"). 
+Refinement determines the process by which a lower resolution parent tile renders when its higher resolution children are selected to be rendered. Permitted refinement types are replacement ("REPLACE") and additive ("ADD"). 
     
-    "ADD" the children are rendered in addition to the parent tile. 
-    "REPLACE" the children tiles are rendered in place of the parent, that is, the parent tile is no longer rendered.
+"ADD" the children are rendered in addition to the parent tile. 
+"REPLACE" the children tiles are rendered in place of the parent, that is, the parent tile is no longer rendered.
         
 ```
         "refine":"ADD",                   
@@ -85,7 +86,7 @@ External tileset #1 defined here:
               }
             },
 ```
-    3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
+3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
     
 ```
             
