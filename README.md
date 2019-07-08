@@ -1,6 +1,6 @@
 # External tileset sample
 
-### Main entry **tileset.json**
+### Entry tileset example
 
 **Asset** contains Metadata about the entire tileset. Required.
 
@@ -64,7 +64,11 @@ Refinement determines the process by which a lower resolution parent tile render
         "refine":"ADD",                   
 ```
 
-External tileset #1 defined here:
+#### Two external tilesets are defined here:
+
+**BoundingVolume** of the external tileset.
+**GeometricError**
+**Content:** 3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
 ```
         "children": [
             {
@@ -83,10 +87,7 @@ External tileset #1 defined here:
                 "uri": "0.json"            
               }
             },
-```
-3D Tiles uses URIs to reference tile content. When the URI is relative, its base is always relative to the referring tileset JSON file
-    
-```
+            
             {
               "boundingVolume": {
                 "region": [
@@ -174,6 +175,8 @@ External tileset #1 defined here:
 
 ### External tileset sample 
 
+Includes required asset 
+
 ```
 {
     "asset":{
@@ -181,6 +184,10 @@ External tileset #1 defined here:
         "gltfUpAxis":"Z",
         "version":"1.0"
     },
+```
+
+boundingVolume of the external tileset.
+```
     "root":{
         "boundingVolume":{
             "region": [
@@ -192,7 +199,11 @@ External tileset #1 defined here:
                 1000
               ]
         },
-        "children":[     
+        "children":[    
+```
+
+    model's hierarchy of LOD 
+```
             {
                 "boundingVolume":{
                     "box":[
@@ -213,280 +224,21 @@ External tileset #1 defined here:
                 "children":[
                     {
                         "boundingVolume":{
-                            "box":[
-                                2.48768832185306,
-                                -4.58087979024276,
-                                10.8971535102464,
-                                24.4194802122656,
-                                0,
-                                0,
-                                0,
-                                24.8279268313199,
-                                0,
-                                0,
-                                0,
-                                50.6109887245111
-                            ]
+                            "box":[...]
                         },
-                        "children":[
-                            {
-                                "boundingVolume":{
-                                    "box":[
-                                        2.48768832185306,
-                                        -4.58087979024276,
-                                        10.8971535102464,
-                                        24.4194802122656,
-                                        0,
-                                        0,
-                                        0,
-                                        24.8279268313199,
-                                        0,
-                                        0,
-                                        0,
-                                        50.6109887245111
-                                    ]
-                                },
-                                "children":[
-                                    {
-                                        "boundingVolume":{
-                                            "box":[
-                                                2.48768832185306,
-                                                -4.58087979024276,
-                                                10.8971535102464,
-                                                24.4194802122656,
-                                                0,
-                                                0,
-                                                0,
-                                                24.8279268313199,
-                                                0,
-                                                0,
-                                                0,
-                                                50.6109887245111
-                                            ]
-                                        },
-                                        "children":[
-                                            {
-                                                "boundingVolume":{
-                                                    "box":[
-                                                        2.48768832185306,
-                                                        -4.58087979024276,
-                                                        10.8971535102464,
-                                                        24.4194802122656,
-                                                        0,
-                                                        0,
-                                                        0,
-                                                        24.8279268313199,
-                                                        0,
-                                                        0,
-                                                        0,
-                                                        50.6109887245111
-                                                    ]
-                                                },
-                                                "children":[
-                                                    {
-                                                        "boundingVolume":{
-                                                            "box":[
-                                                                2.48768832185306,
-                                                                -4.58087979024276,
-                                                                10.8971535102464,
-                                                                24.4194802122656,
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                24.8279268313199,
-                                                                0,
-                                                                0,
-                                                                0,
-                                                                50.6109887245111
-                                                            ]
-                                                        },
-                                                        "children":[
-                                                            {
-                                                                "boundingVolume":{
-                                                                    "box":[
-                                                                        2.48768832185306,
-                                                                        -4.58087979024276,
-                                                                        10.8971535102464,
-                                                                        24.4194802122656,
-                                                                        0,
-                                                                        0,
-                                                                        0,
-                                                                        24.8279268313199,
-                                                                        0,
-                                                                        0,
-                                                                        0,
-                                                                        50.6109887245111
-                                                                    ]
-                                                                },
-                                                                "content":{
-                                                                    "uri":"0/0/0/0/0/0/0/0.b3dm"
-                                                                },
-                                                                "geometricError":0,
-                                                                "refine":"REPLACE",
-                                                                "transform":[
-                                                                    1,
-                                                                    2.77555756156289e-17,
-                                                                    0,
-                                                                    0,
-                                                                    -1.58340805351572e-17,
-                                                                    1,
-                                                                    -5.55111512312578e-17,
-                                                                    0,
-                                                                    -4.29325715976875e-17,
-                                                                    0,
-                                                                    1,
-                                                                    0,
-                                                                    0,
-                                                                    0,
-                                                                    0,
-                                                                    1
-                                                                ]
-                                                            }
-                                                        ],
-                                                        "content":{
-                                                            "uri":"0/0/0/0/0/0/0.b3dm"
-                                                        },
-                                                        "geometricError":0.0741923983696371,
-                                                        "refine":"REPLACE",
-                                                        "transform":[
-                                                            1,
-                                                            2.77555756156289e-17,
-                                                            0,
-                                                            0,
-                                                            -1.58340805351572e-17,
-                                                            1,
-                                                            -5.55111512312578e-17,
-                                                            0,
-                                                            -4.29325715976875e-17,
-                                                            0,
-                                                            1,
-                                                            0,
-                                                            0,
-                                                            0,
-                                                            0,
-                                                            1
-                                                        ]
-                                                    }
-                                                ],
-                                                "content":{
-                                                    "uri":"0/0/0/0/0/0.b3dm"
-                                                },
-                                                "geometricError":0.296769593478548,
-                                                "refine":"REPLACE",
-                                                "transform":[
-                                                    1,
-                                                    2.77555756156289e-17,
-                                                    0,
-                                                    0,
-                                                    -1.58340805351572e-17,
-                                                    1,
-                                                    -5.55111512312578e-17,
-                                                    0,
-                                                    -4.29325715976875e-17,
-                                                    0,
-                                                    1,
-                                                    0,
-                                                    0,
-                                                    0,
-                                                    0,
-                                                    1
-                                                ]
-                                            }
-                                        ],
-                                        "content":{
-                                            "uri":"0/0/0/0/0.b3dm"
-                                        },
-                                        "geometricError":1.18707837391419,
-                                        "refine":"REPLACE",
-                                        "transform":[
-                                            1,
-                                            2.77555756156289e-17,
-                                            0,
-                                            0,
-                                            -1.58340805351572e-17,
-                                            1,
-                                            -5.55111512312578e-17,
-                                            0,
-                                            -4.29325715976875e-17,
-                                            0,
-                                            1,
-                                            0,
-                                            0,
-                                            0,
-                                            0,
-                                            1
-                                        ]
-                                    }
-                                ],
-                                "content":{
-                                    "uri":"0/0/0/0.b3dm"
-                                },
-                                "geometricError":4.74831349565677,
-                                "refine":"REPLACE",
-                                "transform":[
-                                    1,
-                                    2.77555756156289e-17,
-                                    0,
-                                    0,
-                                    -1.58340805351572e-17,
-                                    1,
-                                    -5.55111512312578e-17,
-                                    0,
-                                    -4.29325715976875e-17,
-                                    0,
-                                    1,
-                                    0,
-                                    0,
-                                    0,
-                                    0,
-                                    1
-                                ]
-                            }
-                        ],
+                        "children":[...],
                         "content":{
                             "uri":"0/0/0.b3dm"
                         },
                         "geometricError":18.9932539826271,
                         "refine":"REPLACE",
-                        "transform":[
-                            1,
-                            2.77555756156289e-17,
-                            0,
-                            0,
-                            -1.58340805351572e-17,
-                            1,
-                            -5.55111512312578e-17,
-                            0,
-                            -4.29325715976875e-17,
-                            0,
-                            1,
-                            0,
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "transform":[...]
                     }
                 ],
                 "geometricError":75.9730159305084,
                 "refine":"REPLACE",
                 "transform":[
-                    1,
-                    2.77555756156289e-17,
-                    0,
-                    0,
-                    -1.58340805351572e-17,
-                    1,
-                    -5.55111512312578e-17,
-                    0,
-                    -4.29325715976875e-17,
-                    0,
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    1
+                    ...
                 ]
             }
         ],
