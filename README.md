@@ -118,8 +118,6 @@ External tileset #1 defined here:
         "gltfUpAxis":"Z",
         "version":"1.0"
     },
-
-    
     "properties":{
     },
     "geometricError": 200,
